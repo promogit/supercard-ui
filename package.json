@@ -1,0 +1,10 @@
+{
+  "name": "supercard-ui",
+  "version": "1.0.0",
+  "description": "supercard reusable UI components.",
+  "main": "module.js",
+  "repository": "http://github.com/promogit/supercard-ui.git",
+  "author": "Neltarim <kyurann@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
