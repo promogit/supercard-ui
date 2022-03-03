@@ -24,7 +24,7 @@ export default function(moduleOptions) {
   }
   
   // sync all of the files and folders to revelant places in the nuxt build dir (.nuxt/)
-  const foldersToSync = ['components/lib']
+  const foldersToSync = ['components/lib/overlays']
   for (const pathString of foldersToSync) {
     const path = resolve(__dirname, pathString)
     for (const file of readdirSync(path)) {
