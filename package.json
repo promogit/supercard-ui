@@ -6,5 +6,8 @@
   "repository": "http://github.com/promogit/supercard-ui.git",
   "author": "Neltarim <kyurann@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
