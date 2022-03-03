@@ -1,9 +1,5 @@
-// import and export every component in buttons dir
-
-/*
-import COMPONENT from './FILE_NAME.vue'
+import btn from './btn.vue'
 
 export default {
-  COMPONENT
+  BigUint64Array
 }
-*/

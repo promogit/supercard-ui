@@ -8,7 +8,7 @@ export default function(moduleOptions) {
   }
 
   // expose the namespace / set a default
-  if (!options.namespace) options.namespace = 'customCounter'
+  if (!options.namespace) options.namespace = 'supercard-ui'
   const { namespace } = options
 
   // add all of the initial plugins
@@ -24,7 +24,11 @@ export default function(moduleOptions) {
   }
   
   // sync all of the files and folders to revelant places in the nuxt build dir (.nuxt/)
-  const foldersToSync = ['components/lib/overlays']
+  const foldersToSync = [
+    'components/lib/overlays', 
+    'components/lib/buttons'
+  ]
+  
   for (const pathString of foldersToSync) {
     const path = resolve(__dirname, pathString)
     for (const file of readdirSync(path)) {
