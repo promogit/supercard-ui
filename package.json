@@ -8,6 +8,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "prettier": "2.2.1",
+    "prettier-plugin-tailwind": "^2.2.10",
+    "@nuxtjs/tailwindcss": "^4.0.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/typography": "^0.4.1",
+    "tailwindcss": "^2.1.2"
   }
 }
