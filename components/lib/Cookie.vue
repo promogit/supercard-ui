@@ -6,11 +6,8 @@
       >
         <div class="flex flex-col gap-4 items-center md:flex-row">
           <p class="text-justify text-primary font-bold md:text-left">
-            We and selected partners and related companies, use cookies and
-            similar technologies as specified in our Cookies Policy. You agree
-            to consent to the use of these technologies by clicking Accept, or
-            by continuing to browse this website. You can learn more about how
-            we use cookies and set cookie preferences in Settings.
+            <b>La protection de votre vie privée est importante</b><br>
+            Nous utilisons des cookies et des technologies similaires pour sécuriser votre navigation (Google Recaptcha).
           </p>
           <button
             id="btn"
