@@ -5,7 +5,7 @@
         class="m-auto p-4 w-full max-w-screen-2xl bg-primary-lightest md:px-8 md:rounded-lg md:shadow-lg"
       >
         <div class="flex flex-col gap-4 items-center md:flex-row">
-          <p class="text-justify text-primary font-bold md:text-left">
+          <p class="text-justify text-primary flex-grow font-bold md:text-left">
             <b>La protection de votre vie privée est importante</b><br>
             Nous utilisons des cookies et des technologies similaires pour sécuriser votre navigation (Google Recaptcha).
           </p>
