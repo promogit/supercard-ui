@@ -9,13 +9,16 @@
             <b>La protection de votre vie privée est importante</b><br>
             Nous utilisons des cookies et des technologies similaires pour sécuriser votre navigation (Google Recaptcha).
           </p>
-          <button
-            id="btn"
-            class="text-white px-8 py-2 w-full text-sm font-bold hover:bg-error bg-primary rounded shadow-xl transition md:w-auto"
-            @click="showCookieBanner = false"
-          >
-            Masquer
-          </button>
+          <div class="flex space-x-4 items-center">
+            <a href="https://supercard.fr/pages/confidentialite" class="text-primary underline">Politique de confidentialité</a>
+            <button
+                id="btn"
+                class="text-white text-text px-8 py-2 w-full text-sm font-bold hover:bg-error hover:bg-primary-light bg-primary rounded shadow-xl transition md:w-auto"
+                @click="showCookieBanner = false"
+            >
+              Masquer
+            </button>
+          </div>
         </div>
       </section>
     </div>
